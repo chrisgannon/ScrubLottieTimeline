@@ -1,6 +1,6 @@
 window.ScrubBodymovinTimeline = function(tl) {
 
-    tl.addEventListener('DOMLoaded', function() {
+    var onLoaded = function() {
 
         var box = document.createElement('div'),
             mouseX, mouseY, gGreen = '#53A018',
@@ -61,5 +61,18 @@ window.ScrubBodymovinTimeline = function(tl) {
             box.style.display = "none";
         }
 
-    })
+
+    }
+    if (tl.isLoaded) {
+
+        onLoaded();
+    } else {
+
+        tl.addEventListener('DOMLoaded', onLoaded)
+    }
+
+
+
+
+
 }
