@@ -13,4 +13,3 @@ To use it:
 - Moving your mouse off the document at, say, halfway along the X axis, will play the timeline from that percentage of the timeline (i.e. halfway through the timeline's duration).
 - Double click to pause scrubbing. Double click again to unpause.
 
-**See a CodePen demo [here](http://codepen.io/chrisgannon/pen/23752505b7a740dbc06f88a76d7b263f)**
