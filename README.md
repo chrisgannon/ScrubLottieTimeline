@@ -1,5 +1,5 @@
 # ScrubBodymovinTimeline
-Allows granular scrubbing through a Bodymovin timeline with the mouse to help with accurate animation timing and positioning.
+Allows granular scrubbing through a Lottie (AKA Bodymovin) timeline with the mouse to help with accurate animation timing and positioning.
 
 This script allows you to scrub through a Bodymovin animation timeline simply by moving your mouse left to right. 
 It also displays your animation's current time. It's particularly useful if you create long timelines and need to quickly and accurately preview certain points in your animation.
