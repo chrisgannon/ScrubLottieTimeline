@@ -15,17 +15,15 @@ To use it:
 - Double click again to unpause.
 
 # Example code
-```	let animData = {
-		wrapper: document.querySelector('#animationWindow'),
+```
+let animData = {
+		wrapper: document.querySelector('#EMPTY_DIV'),
 		animType: 'svg',
 		loop: true,
 		prerender: true,
 		autoplay: true,
-		path: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ball_on_rope.json'
+		path: 'PATH_TO_YOUR_JSON'
 	}, anim = lottie.loadAnimation(animData);
-
- anim.setSpeed(1.2);
- lottie.setSubframeRendering(true);
 
 ScrubLottieTimeline(anim)
 ```
