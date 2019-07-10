@@ -6,7 +6,7 @@ It also displays your animation's current time. It's particularly useful if you 
 
 To use it:
 
-- Create a reference to your Bodymovin ```loadAnimation()``` call. E.g. ```var anim = bodymovin.loadAnimation(animData);```
+- Create a reference to your Bodymovin ```loadAnimation()``` call. E.g. ```let anim = bodymovin.loadAnimation(animData);```
 - Add the line ScrubBodymovinTimeline(); and pass in the Bodymovin reference. So if your instance is called ```anim``` you would write:
  ```ScrubBodymovinTimeline(anim);```
 - To let the timeline play automatically, move your mouse outside the document.
