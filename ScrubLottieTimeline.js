@@ -17,6 +17,7 @@ window.ScrubLottieTimeline = function(tl) {
         box.style.lineHeight = "1.8";
         box.style.backgroundColor = '#262626';
         box.style.fontFamily = 'Helvetica, Arial, sans-serif';
+        box.style.pointerEvents = 'none';
 
 
         document.body.appendChild(box);
